@@ -1,17 +1,17 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Turbulent boundary layers with strong usteadt pressure gradients" 
+date: 2025-06-20
+tags: ["turbulence","boudary layer","flow separation"]
+author: ["Francesco Ambrogi"]
+description: "Wall-resolved Large Eddy Simulations (WRLES) of spatially developing turbulent boundary layers with strong unsteady presssure gradients." 
+summary: "This project has the goal of furthering our understanding of the physics of separated turbulent boundary layers. By imposing a freestream forcing on the boundary layer we isolate the effect of the unsteady pressure gradient on the near-wall physics. This project has potential implications on real world systems such as pitching airfoils, turbine blades, and diffusers." 
 cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    image: "cover.png"
+    alt: "Instantaneous velocity and fluctuations for k=0.2"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: ""
+    Text: ""
 
 ---
 

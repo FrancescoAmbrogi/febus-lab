@@ -1,0 +1,106 @@
+baseURL: "https://febus-lab.github.io" 
+title: FEBUS lab
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: People
+          url: people/
+          weight: 5 
+        - name: Projects
+          url: projects/
+          weight: 2
+        - name: Courses
+          url: courses/
+          weight: 3
+        - name: News
+          url: news/
+          weight: 4 
+        - name: Dr. Ambrogi
+          url: https://francescoambrogi.github.io/
+          weight: 6
+
+params:
+    description: "Welcome to the official website of the Queen's University FEBUS lab where we use modern computational tools to push the boundaries of our understanding of fluid systems."
+    author: Dr. Francesco Ambrogi
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["people","courses","projects","news"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Fluids, Energy, and Bio-inspired Unsteady Simulations lab
+          subtitle: "Welcome to the official website of the Queen's University FEBUS lab where we use modern computational tools to push the boundaries of our understanding of fluid systems."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Projects
+              url: projects/
+            - name: News
+              url: news/
+            - name: People
+              url: people/
+            - name: Courses
+              url: courses/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=Xmie4zcAAAAJ&hl=en&oi=ao
+        - name: GitHub
+          url: https://github.com/FrancescoAmbrogi/
+        - name: YouTube
+          url: https://www.youtube.com/@ambrogifra-fluids
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "FEBUS lab"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

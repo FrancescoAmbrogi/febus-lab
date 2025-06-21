@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/flow-separation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Turbulent boundary layers with strong usteadt pressure gradients</title>
+      <title>Turbulent boundary layers with strong unsteady pressure gradients</title>
       <link>http://localhost:1313/projects/uapg_tbl/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/uapg_tbl/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
+      <description>Wall-resolved Large Eddy Simulations (WRLES) of spatially developing turbulent boundary layers with strong unsteady presssure gradients.</description>
     </item>
   </channel>
 </rss>

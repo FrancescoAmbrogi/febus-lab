@@ -1,14 +1,15 @@
 ---
 title: "Office Hours"
-date: 2024-05-08
+date: 2025-06-20
 hidemeta: true
-description: "Schedule and location for Professor Dr von Igelfeld's office hours."
+description: "Schedule and location for Professor Francesco Ambrogi office hours."
 ---
 
 --- 
 #### Schedule
 
-Office hours take place on Wednesday at 10am.
+Office hours take place by appointment.
+Do not hesitate to reach out on my Queen's email.
 
 ---
 

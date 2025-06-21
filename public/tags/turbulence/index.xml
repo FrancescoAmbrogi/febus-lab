@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/turbulence/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Turbulent boundary layers with strong usteadt pressure gradients</title>
+      <title>Turbulent boundary layers with strong unsteady pressure gradients</title>
       <link>http://localhost:1313/projects/uapg_tbl/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/uapg_tbl/</guid>
@@ -28,6 +28,13 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/people/book2/</guid>
       <description>MSc Student.</description>
+    </item>
+    <item>
+      <title>Advanced research computing for computational fluid dynamics</title>
+      <link>http://localhost:1313/projects/arc4cfd/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/arc4cfd/</guid>
+      <description>ARC4CFD: advanced research computing for computational fluid dynamics</description>
     </item>
   </channel>
 </rss>

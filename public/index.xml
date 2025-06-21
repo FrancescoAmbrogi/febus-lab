@@ -30,6 +30,13 @@
       <description>Wall-resolved Large Eddy Simulations (WRLES) of spatially developing turbulent boundary layers with strong unsteady presssure gradients.</description>
     </item>
     <item>
+      <title>Thermodynamics and heat transfer</title>
+      <link>http://localhost:1313/courses/mren230/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/mren230/</guid>
+      <description>Introductory course on thermodynamics and heat transfer for mechatronics engineers</description>
+    </item>
+    <item>
       <title>Name Lastname</title>
       <link>http://localhost:1313/people/book1/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
@@ -44,11 +51,18 @@
       <description>MSc Student.</description>
     </item>
     <item>
-      <title>Your Inner Hedgehog</title>
-      <link>http://localhost:1313/projects/paper3/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/paper3/</guid>
-      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
+      <title>Advanced research computing for computational fluid dynamics</title>
+      <link>http://localhost:1313/projects/arc4cfd/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/arc4cfd/</guid>
+      <description>ARC4CFD: advanced research computing for computational fluid dynamics</description>
+    </item>
+    <item>
+      <title>Fluid Mechanics and Fluid Power</title>
+      <link>http://localhost:1313/courses/mren241/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/mren241/</guid>
+      <description>Introductory course on fluid mechanics and fluid power for mechatronics engineers</description>
     </item>
     <item>
       <title>List of Irregular Verbs Across Romance Languages</title>
@@ -56,20 +70,6 @@
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/data1/</guid>
       <description>This dataset contains all irregular verbs in known Romance languages.</description>
-    </item>
-    <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:1313/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>http://localhost:1313/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
     </item>
   </channel>
 </rss>

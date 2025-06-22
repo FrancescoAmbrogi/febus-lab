@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data on FEBUS lab</title>
+    <title>News on FEBUS lab</title>
     <link>http://localhost:1313/news/</link>
-    <description>Recent content in Data on FEBUS lab</description>
+    <description>Recent content in News on FEBUS lab</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>http://localhost:1313/news/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
+      <title>FLAQ was big at TIM 2025</title>
+      <link>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</guid>
+      <description>The FLuid Alliance at Queen’s (FLAQ) had a strong presence at the 2025 Thousand Islands Fluid Dynamics Meeting (TIM Fluids).</description>
     </item>
   </channel>
 </rss>

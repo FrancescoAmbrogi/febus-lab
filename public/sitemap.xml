@@ -29,6 +29,18 @@
     <loc>http://localhost:1313/projects/uapg_tbl/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/courses/</loc>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/energy/</loc>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thermodynamics/</loc>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/mren230/</loc>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/flow-control/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -52,6 +64,15 @@
   </url><url>
     <loc>http://localhost:1313/tags/hpc/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fluid-mechanics/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/mren241/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/power/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/</loc>
     <lastmod>2013-03-07T00:00:00+00:00</lastmod>
@@ -88,27 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/spanish/</loc>
     <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/</loc>
-    <lastmod>2003-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/course1/</loc>
-    <lastmod>2003-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/celtic-languages/</loc>
-    <lastmod>1990-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/irish/</loc>
-    <lastmod>1990-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/language-modernization/</loc>
-    <lastmod>1990-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/profanity/</loc>
-    <lastmod>1990-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/course2/</loc>
-    <lastmod>1990-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
   </url>

@@ -30,6 +30,20 @@
       <description></description>
     </item>
     <item>
+      <title>Energy</title>
+      <link>http://localhost:1313/tags/energy/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thermodynamics</title>
+      <link>http://localhost:1313/tags/thermodynamics/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/thermodynamics/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Flow Control</title>
       <link>http://localhost:1313/tags/flow-control/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
@@ -55,6 +69,20 @@
       <link>http://localhost:1313/tags/hpc/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fluid Mechanics</title>
+      <link>http://localhost:1313/tags/fluid-mechanics/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fluid-mechanics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power</title>
+      <link>http://localhost:1313/tags/power/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/power/</guid>
       <description></description>
     </item>
     <item>
@@ -125,34 +153,6 @@
       <link>http://localhost:1313/tags/spanish/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/spanish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Celtic Languages</title>
-      <link>http://localhost:1313/tags/celtic-languages/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/celtic-languages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Irish</title>
-      <link>http://localhost:1313/tags/irish/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/irish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language Modernization</title>
-      <link>http://localhost:1313/tags/language-modernization/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/language-modernization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Profanity</title>
-      <link>http://localhost:1313/tags/profanity/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/profanity/</guid>
       <description></description>
     </item>
   </channel>

@@ -30,25 +30,25 @@
       <description>Wall-resolved Large Eddy Simulations (WRLES) of spatially developing turbulent boundary layers with strong unsteady presssure gradients.</description>
     </item>
     <item>
+      <title>Ahnaaf Khan - summer intern</title>
+      <link>http://localhost:1313/people/akhan/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/akhan/</guid>
+      <description>BSc Student.</description>
+    </item>
+    <item>
+      <title>FLAQ was big at TIM 2025</title>
+      <link>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</guid>
+      <description>The FLuid Alliance at Queen’s (FLAQ) had a strong presence at the 2025 Thousand Islands Fluid Dynamics Meeting (TIM Fluids).</description>
+    </item>
+    <item>
       <title>Thermodynamics and heat transfer</title>
       <link>http://localhost:1313/courses/mren230/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/courses/mren230/</guid>
       <description>Introductory course on thermodynamics and heat transfer for mechatronics engineers</description>
-    </item>
-    <item>
-      <title>Name Lastname</title>
-      <link>http://localhost:1313/people/book1/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/people/book1/</guid>
-      <description>MSc Student.</description>
-    </item>
-    <item>
-      <title>Name Lastname</title>
-      <link>http://localhost:1313/people/book2/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/people/book2/</guid>
-      <description>MSc Student.</description>
     </item>
     <item>
       <title>Advanced research computing for computational fluid dynamics</title>
@@ -63,13 +63,6 @@
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/courses/mren241/</guid>
       <description>Introductory course on fluid mechanics and fluid power for mechatronics engineers</description>
-    </item>
-    <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>http://localhost:1313/news/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
     </item>
   </channel>
 </rss>

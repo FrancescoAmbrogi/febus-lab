@@ -16,20 +16,6 @@
       <description>Wall-resolved Large Eddy Simulations (WRLES) of spatially developing turbulent boundary layers with strong unsteady presssure gradients.</description>
     </item>
     <item>
-      <title>Name Lastname</title>
-      <link>http://localhost:1313/people/book1/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/people/book1/</guid>
-      <description>MSc Student.</description>
-    </item>
-    <item>
-      <title>Name Lastname</title>
-      <link>http://localhost:1313/people/book2/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/people/book2/</guid>
-      <description>MSc Student.</description>
-    </item>
-    <item>
       <title>Advanced research computing for computational fluid dynamics</title>
       <link>http://localhost:1313/projects/arc4cfd/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>

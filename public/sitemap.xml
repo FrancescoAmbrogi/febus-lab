@@ -29,6 +29,27 @@
     <loc>http://localhost:1313/projects/uapg_tbl/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/people/akhan/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/course-developer/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/conference/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/networking/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/courses/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,21 +61,6 @@
   </url><url>
     <loc>http://localhost:1313/courses/mren230/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/flow-control/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/flow-separatio/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/book1/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/book2/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/arc4cfd/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
@@ -73,42 +79,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/power/</loc>
     <lastmod>2024-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dataset/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/french/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/irregular-verbs/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/italian/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/data1/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/philology/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/portuguese/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/romance-languages/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/simulations/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/spanish/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
   </url>

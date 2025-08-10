@@ -19,10 +19,7 @@ editPost:
 
 ##### References
 
-+ [Ambrogi et al. 2024 - AIAAJ](https://arc.aiaa.org/doi/abs/10.2514/1.J064382)
-+ [Ambrogi et al. 2023 - JFM](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/903D02271CE967B9EB73F26D88623C84/S0022112023006900a.pdf/characterisation_of_unsteady_separation_in_a_turbulent_boundary_layer_reynolds_stresses_and_flow_dynamics.pdf)
-+ [MacDougall et al. 2023 - Fluids](https://www.mdpi.com/2311-5521/8/10/273)
-+ [Ambrogi et. al 2022 - JFM](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/25802765C211036318F556F5DF29F46E/S0022112022005614a.pdf/characterization_of_unsteady_separation_in_a_turbulent_boundary_layer_mean_and_phaseaveraged_flow.pdf)
+Results of this research project will be presented at the APS-DFD meeting in Houston in 2025. Come back soon!
 
 ---
 
@@ -35,6 +32,10 @@ This project has the goal of furthering our understanding of the physics of sepa
 ##### Background:
 
 ![](Q_phase270.png)
+
+Large-Eddy Simulation is used to study a turbulent boundary layer subject to space- and time-dependent free-stream pressure gradients strong enough to generate a large-scale separation bubble. The pressure gradient is prescribed by an oscillating blowing and suction profile at the top boundary. Mean and phase-averaged quantities, and higher-order statistics were described in previous meetings. Here we delve into instantaneous flow quantities, and comparison is made against steady cases with fixed pressure gradients. For the steady cases, streamwise velocity fluctuations near the wall show the expected disappearance of streaks in the recirculation region, their increased spanwise spacing in the reattachment region, and their elongation due to a strong favorable pressure gradient. Unsteady cases, however, show a much different behavior depending on the period of the freestream forcing oscillation. The figure above shows isosurfaces of $Q$ criterion for the lowest frequency case $k=0.2$. Even though this case resembles the steady case in the mean, wall streaks and turbulent structures are strongly affected by history effects in the flow. This is especially evident during the separation region of the cycle [$\Phi=252^\circ, 306^\circ$], where iso-surfaces of the $Q$ criterion show the formation of large scale secondary streamwise structures.
+
+
 
 ---
 

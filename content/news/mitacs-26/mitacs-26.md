@@ -21,6 +21,6 @@ I’ll be welcoming two interns to work with me on projects in unsteady flow sep
 - Learn more about the [program eligibility](https://lnkd.in/g7Bq6MMF)
 - **Duration**: 12 weeks (May–September 2026)
 - **Location**: Queen’s University, Canada, Stephen J. R. Smith Faculty of Engineering and Applied Science at Queen's University
-
+- **Deadline**: September 17, 2025
 ---
 

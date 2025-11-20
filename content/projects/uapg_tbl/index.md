@@ -47,7 +47,7 @@ Where $f$  is the imposed frequency, $L_{PG}$ is the length over which the press
 Simulations are performed using a well validated code, with second order differences for all terms, semi-implicit time advancement, and MPI parallelization. The unresolved stresses are modeled using the Vreman eddy viscosity model. The animation clearly shows the differences between the two cases: when $\tilde{k}$ is high enough the separation bubble does not have time to develop, yet the size of the separation region is comparable to a steady case. When $\tilde{k}$ decreases, the extent of the separation bubble in the wall normal direction increases but the length of the separation region is reduced compared with the steady case. The main findings so far include:
 
 + Large histeresis effects. The flow history seems to play a relevant role in the near-wall flow physics.
-+ Advection of the turbulent separation bubble. When the convective timescale of the flow, and the unteady imposed one are equal ($\tilde{k}=1$), the separation region is unstable and is periodically advected out of the domain at constant speed.
++ Advection of the turbulent separation bubble. When the convective timescale of the flow, and the unsteady imposed one are equal ($\tilde{k}=1$), the separation region is unstable and is periodically advected out of the domain at constant speed.
 + The advection mechanism of the TSB is independent on the freestream forcing distribution, and only related to the occurrence of reattachement at the wall.
 
 ---

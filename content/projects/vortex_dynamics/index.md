@@ -25,7 +25,7 @@ Results of this research project will be presented at the APS-DFD meeting in Hou
 
 ##### Abstract
 
-This project has the goal of furthering our understanding of the physics of separated turbulent boundary layers. By leveraging the power of modern flow visualiztion techniques, and by using an extensive dataset of wall-resolved large-eddy simulations of unsteady separated TBLs, we plan on studying large-scale coherent structures. These structures are of pivotal importance for the transport of any quantity (mass, momentum, enery, and contaminant) in a turbulent flow. Therefore, characterizing the behavior of these structures under a time-dependent pressure gradint will shed light into several engineering applications such as turbulent mixing, heat diffusion, or the transport of a contaminant in the atmosphere.
+This project has the goal of furthering our understanding of the physics of separated turbulent boundary layers. By leveraging the power of modern flow visualiztion techniques, and by using an extensive dataset of wall-resolved large-eddy simulations of unsteady separated TBLs, we plan on studying large-scale coherent structures. These structures are of pivotal importance for the transport of any quantity (mass, momentum, enery, and contaminant) in a turbulent flow. Therefore, characterizing the behavior of these structures under a time-dependent pressure gradient will shed light into several engineering applications such as turbulent mixing, heat diffusion, or the transport of a contaminant in the atmosphere.
 
 ---
 

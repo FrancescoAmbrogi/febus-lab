@@ -4,10 +4,24 @@
     <title>Turbulence on FEBUS lab</title>
     <link>http://localhost:1313/tags/turbulence/</link>
     <description>Recent content in Turbulence on FEBUS lab</description>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.160.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/turbulence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coherent turbulent structures in unsteady separated TBLs</title>
+      <link>http://localhost:1313/projects/vortex_dynamics/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/vortex_dynamics/</guid>
+      <description>Identification, tracking, and characterization of large-scale turbulent structures in turbulent boundary layers with unsteady separation.</description>
+    </item>
+    <item>
+      <title>Unveiling the marvel of shark-skin for fluid mechanics</title>
+      <link>http://localhost:1313/projects/sharkskin/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sharkskin/</guid>
+      <description>Identification, tracking, and characterization of large-scale turbulent structures in turbulent boundary layers with unsteady separation.</description>
+    </item>
     <item>
       <title>Turbulent boundary layers with strong unsteady pressure gradients</title>
       <link>http://localhost:1313/projects/uapg_tbl/</link>

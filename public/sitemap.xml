@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/kmacdonald/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/masc/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/courses/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/energy/</loc>
-    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/mech485/</loc>
@@ -18,9 +30,6 @@
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/power/</loc>
-    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/mitacs-26/mitacs-26/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/course-developer/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/conference/</loc>

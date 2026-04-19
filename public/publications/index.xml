@@ -6,8 +6,29 @@
     <description>Recent content in Publications on FEBUS lab</description>
     <generator>Hugo -- 0.160.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARC4CFD: Learning how to leverage High-Performance Computing with Computationa    l Fluid Dynamics</title>
+      <link>http://localhost:1313/publications/ha_jose_24/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/ha_jose_24/</guid>
+      <description>ARC4CFD: Learning how to leverage High-Performance Computing with Computational Fluid Dynamics.</description>
+    </item>
+    <item>
+      <title>Influence of Time-Varying Freestream Conditions on the Dynamics of Unsteady Bo    undary-Layer Separation</title>
+      <link>http://localhost:1313/publications/apr_aiaaj_24/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/apr_aiaaj_24/</guid>
+      <description>Influence of Time-Varying Freestream Conditions on the Dynamics of Unsteady Boundary-Layer Separation.</description>
+    </item>
+    <item>
+      <title>Evaluation of Turbulence Models in Unsteady Separation</title>
+      <link>http://localhost:1313/publications/mpa_fluids_23/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/mpa_fluids_23/</guid>
+      <description>Evaluation of Turbulence Models in Unsteady Separation.</description>
+    </item>
     <item>
       <title>Characterization of unsteady separation in a turbulent boundary layer: Reynold    s stresses and flow dynamics</title>
       <link>http://localhost:1313/publications/apr-jfm_23/</link>
@@ -21,13 +42,6 @@
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/apr-jfm_22/</guid>
       <description>Characterization of unsteady separation in a turbulent boundary layer: mean and phase-averaged flow.</description>
-    </item>
-    <item>
-      <title>Your Inner Hedgehog</title>
-      <link>http://localhost:1313/publications/paper3/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/paper3/</guid>
-      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
     </item>
   </channel>
 </rss>

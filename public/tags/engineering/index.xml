@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Engineering on FEBUS lab</title>
+    <link>http://localhost:1313/tags/engineering/</link>
+    <description>Recent content in Engineering on FEBUS lab</description>
+    <generator>Hugo -- 0.160.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARC4CFD: Learning how to leverage High-Performance Computing with Computationa    l Fluid Dynamics</title>
+      <link>http://localhost:1313/publications/ha_jose_24/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/ha_jose_24/</guid>
+      <description>ARC4CFD: Learning how to leverage High-Performance Computing with Computational Fluid Dynamics.</description>
+    </item>
+  </channel>
+</rss>

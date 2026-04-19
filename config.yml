@@ -15,6 +15,9 @@ menu:
         - name: People
           url: people/
           weight: 5 
+        - name: Publications
+          url: publications/
+          weight: 1
         - name: Projects
           url: projects/
           weight: 2
@@ -33,7 +36,7 @@ params:
     author: Dr. Francesco Ambrogi
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -44,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["people","courses","projects","news"]
+    MainSections: ["Publications","people","courses","projects","news"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -60,6 +63,8 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: Publications
+              url: publications/
             - name: Projects
               url: projects/
             - name: News

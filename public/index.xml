@@ -106,5 +106,26 @@
       <guid>http://localhost:1313/courses/mren241/</guid>
       <description>Introductory course on fluid mechanics and fluid power for mechatronics engineers</description>
     </item>
+    <item>
+      <title>Characterization of unsteady separation in a turbulent boundary layer: Reynold    s stresses and flow dynamics</title>
+      <link>http://localhost:1313/publications/apr-jfm_23/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/apr-jfm_23/</guid>
+      <description>Characterization of unsteady separation in a turbulent boundary layer: Reynolds stresses and flow dynamics.</description>
+    </item>
+    <item>
+      <title>Characterization of unsteady separation in a turbulent boundary layer: mean an    d phase-averaged flow</title>
+      <link>http://localhost:1313/publications/apr-jfm_22/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/apr-jfm_22/</guid>
+      <description>Characterization of unsteady separation in a turbulent boundary layer: mean and phase-averaged flow.</description>
+    </item>
+    <item>
+      <title>Your Inner Hedgehog</title>
+      <link>http://localhost:1313/publications/paper3/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper3/</guid>
+      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
+    </item>
   </channel>
 </rss>

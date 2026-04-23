@@ -6,8 +6,15 @@
     <description>Recent content in Engineering on FEBUS lab</description>
     <generator>Hugo -- 0.160.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thank you TRON class of 2028</title>
+      <link>http://localhost:1313/news/bye-tron-28/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/bye-tron-28/</guid>
+      <description>A thank you gift from TRON 2028.</description>
+    </item>
     <item>
       <title>ARC4CFD: Learning how to leverage High-Performance Computing with Computationa    l Fluid Dynamics</title>
       <link>http://localhost:1313/publications/ha_jose_24/</link>

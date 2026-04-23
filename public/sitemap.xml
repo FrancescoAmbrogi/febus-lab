@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/education/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/engineering/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/bye-tron-28/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/people/kmacdonald/</loc>
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
@@ -12,9 +27,6 @@
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/people/</loc>
-    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/</loc>
@@ -36,9 +48,6 @@
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/internship/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/research/</loc>
@@ -92,6 +101,18 @@
     <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/publications/ha_jose_24/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cfd/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/thermodynamics/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,9 +120,6 @@
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/arc4cfd/</loc>
-    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cfd/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hpc/</loc>
@@ -117,9 +135,6 @@
     <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications/apr_aiaaj_24/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications/mpa_fluids_23/</loc>

@@ -31,11 +31,7 @@ menu:
           url: news/
           weight: 5 
         - name: Dr. Ambrogi
-<<<<<<< HEAD
           url: https://francescoambrogi.github.io/my-portfolio
-=======
-          url: https://francescoambrogi.github.io/my-portfolio/
->>>>>>> 201ddac0e52d27326b48457c690ab5197faf86a2
           weight: 7
 
 params:

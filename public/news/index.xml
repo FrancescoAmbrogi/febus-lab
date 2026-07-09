@@ -4,7 +4,7 @@
     <title>News on FEBUS lab</title>
     <link>http://localhost:1313/news/</link>
     <description>Recent content in News on FEBUS lab</description>
-    <generator>Hugo -- 0.161.1</generator>
+    <generator>Hugo -- 0.163.3</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />

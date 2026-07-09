@@ -4,10 +4,17 @@
     <title>Turbulence on FEBUS lab</title>
     <link>http://localhost:1313/tags/turbulence/</link>
     <description>Recent content in Turbulence on FEBUS lab</description>
-    <generator>Hugo -- 0.161.1</generator>
+    <generator>Hugo -- 0.163.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/turbulence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NATO Research Specialist Meeting 2026 - Bordeaux</title>
+      <link>http://localhost:1313/news/nato-rsm-2026/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/nato-rsm-2026/</guid>
+      <description>I attended the 2026 NATO RSM of the Applied Vehicle Technology panel.</description>
+    </item>
     <item>
       <title>Coherent turbulent structures in unsteady separated TBLs</title>
       <link>http://localhost:1313/projects/vortex_dynamics/</link>

@@ -4,10 +4,17 @@
     <title>Course Developer on FEBUS lab</title>
     <link>http://localhost:1313/tags/course-developer/</link>
     <description>Recent content in Course Developer on FEBUS lab</description>
-    <generator>Hugo -- 0.163.3</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/course-developer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angie Ivanov - summer intern</title>
+      <link>http://localhost:1313/people/aivanov/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/aivanov/</guid>
+      <description>BSc Student.</description>
+    </item>
     <item>
       <title>Ahnaaf Khan - summer intern</title>
       <link>http://localhost:1313/people/akhan/</link>

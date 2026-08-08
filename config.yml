@@ -42,7 +42,7 @@ params:
     defaultTheme: auto
     hideFooter: false
     disableThemeToggle: false
-    ShowShareButtons: false
+    ShowShareButtons: true
     ShowReadingTime: true
     disableSpecial1stPost: true
     disableAnchoredHeadings: true

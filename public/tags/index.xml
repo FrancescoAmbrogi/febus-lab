@@ -6,11 +6,6 @@
     <description>Recent content in Tags on FEBUS lab</description>
     <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
-<<<<<<< HEAD
-    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-=======
     <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -35,7 +30,6 @@
       <description></description>
     </item>
     <item>
->>>>>>> 71352412f21a2900c0c9ad398c7e08672890f8e3
       <title>Networking</title>
       <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
@@ -71,13 +65,6 @@
       <description></description>
     </item>
     <item>
-      <title>MASc</title>
-      <link>http://localhost:1313/tags/masc/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/masc/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Education</title>
       <link>http://localhost:1313/tags/education/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
@@ -92,8 +79,6 @@
       <description></description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
       <title>MASc</title>
       <link>http://localhost:1313/tags/masc/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
@@ -108,7 +93,6 @@
       <description></description>
     </item>
     <item>
->>>>>>> 71352412f21a2900c0c9ad398c7e08672890f8e3
       <title>Energy</title>
       <link>http://localhost:1313/tags/energy/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
@@ -158,16 +142,6 @@
       <description></description>
     </item>
     <item>
-<<<<<<< HEAD
-      <title>Course Developer</title>
-      <link>http://localhost:1313/tags/course-developer/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/course-developer/</guid>
-      <description></description>
-    </item>
-    <item>
-=======
->>>>>>> 71352412f21a2900c0c9ad398c7e08672890f8e3
       <title>Conference</title>
       <link>http://localhost:1313/tags/conference/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>

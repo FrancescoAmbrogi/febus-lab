@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Social on FEBUS lab</title>
+    <link>http://localhost:1313/tags/social/</link>
+    <description>Recent content in Social on FEBUS lab</description>
+    <generator>Hugo -- 0.164.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The VERY first FEBUS lab social</title>
+      <link>http://localhost:1313/news/first-febus-social/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/first-febus-social/</guid>
+      <description>The very first FEBUS social was a huge success! Food was delicious, company was even better!</description>
+    </item>
+  </channel>
+</rss>

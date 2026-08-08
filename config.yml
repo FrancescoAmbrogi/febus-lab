@@ -39,11 +39,11 @@ params:
     author: Dr. Francesco Ambrogi
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
-    ShowReadingTime: false
+    ShowReadingTime: true
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false

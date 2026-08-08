@@ -27,6 +27,34 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/tags/flow-separation/">
   <meta property="og:site_name" content="FEBUS lab">
   <meta property="og:title" content="Flow Separation">
@@ -68,7 +96,17 @@
 
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
 
 <header class="header">
     <nav class="nav">
@@ -78,6 +116,26 @@
                     height="18"
                     width="18">FEBUS lab</a>
             <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </div>
         </div>
         <ul id="menu">
@@ -144,7 +202,7 @@
   <div class="entry-content">
     <p>This project has the goal of furthering our understanding of the physics of separated turbulent boundary layers. By leveraging the power of modern flow visualiztion techniques, and by using an extensive dataset of wall-resolved large-eddy simulations of unsteady separated TBLs, we plan on studying large-scale coherent structures.</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-09 00:00:00 +0000 UTC'>August 2025</span>&nbsp;&middot;&nbsp;Active</footer>
+  <footer class="entry-footer"><span title='2025-08-09 00:00:00 +0000 UTC'>August 2025</span>&nbsp;&middot;&nbsp;2 min&nbsp;&middot;&nbsp;Active</footer>
   <a class="entry-link" aria-label="post link to Coherent turbulent structures in unsteady separated TBLs" href="http://localhost:1313/projects/vortex_dynamics/"></a>
 </article>
 
@@ -159,7 +217,7 @@
   <div class="entry-content">
     <p>The goal of this project is to methodically study the influence of shark-skin denticles on the physics of spatially-developing separating turbulent boundary layers (TBLs), and extend wall-resolved numerical simulations to an array of denticles mounted on a flat plate TBL with unsteady freestream pressure gradients.</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-09 00:00:00 +0000 UTC'>August 2025</span>&nbsp;&middot;&nbsp;Active</footer>
+  <footer class="entry-footer"><span title='2025-08-09 00:00:00 +0000 UTC'>August 2025</span>&nbsp;&middot;&nbsp;1 min&nbsp;&middot;&nbsp;Active</footer>
   <a class="entry-link" aria-label="post link to Unveiling the marvel of shark-skin for fluid mechanics" href="http://localhost:1313/projects/sharkskin/"></a>
 </article>
 
@@ -174,7 +232,7 @@
   <div class="entry-content">
     <p>This project has the goal of furthering our understanding of the physics of separated turbulent boundary layers. By imposing a freestream forcing on the boundary layer we isolate the effect of the unsteady pressure gradient on the near-wall physics. This project has potential implications on real world systems such as pitching airfoils, turbine blades, and diffusers.</p>
   </div>
-  <footer class="entry-footer"><span title='2025-06-20 00:00:00 +0000 UTC'>June 2025</span>&nbsp;&middot;&nbsp;Active</footer>
+  <footer class="entry-footer"><span title='2025-06-20 00:00:00 +0000 UTC'>June 2025</span>&nbsp;&middot;&nbsp;3 min&nbsp;&middot;&nbsp;Active</footer>
   <a class="entry-link" aria-label="post link to Turbulent boundary layers with strong unsteady pressure gradients" href="http://localhost:1313/projects/uapg_tbl/"></a>
 </article>
 
@@ -189,7 +247,7 @@
   <div class="entry-content">
     <p>Influence of Time-Varying Freestream Conditions on the Dynamics of Unsteady Boundary-Layer Separation.</p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-23 00:00:00 +0000 UTC'>July 2024</span>&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
+  <footer class="entry-footer"><span title='2024-07-23 00:00:00 +0000 UTC'>July 2024</span>&nbsp;&middot;&nbsp;2 min&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
   <a class="entry-link" aria-label="post link to Influence of Time-Varying Freestream Conditions on the Dynamics of Unsteady Bo    undary-Layer Separation" href="http://localhost:1313/publications/apr_aiaaj_24/"></a>
 </article>
 
@@ -204,7 +262,7 @@
   <div class="entry-content">
     <p>Characterization of unsteady separation in a turbulent boundary layer: Reynolds stresses and flow dynamics.</p>
   </div>
-  <footer class="entry-footer"><span title='2023-08-12 00:00:00 +0000 UTC'>August 2023</span>&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
+  <footer class="entry-footer"><span title='2023-08-12 00:00:00 +0000 UTC'>August 2023</span>&nbsp;&middot;&nbsp;2 min&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
   <a class="entry-link" aria-label="post link to Characterization of unsteady separation in a turbulent boundary layer: Reynold    s stresses and flow dynamics" href="http://localhost:1313/publications/apr-jfm_23/"></a>
 </article>
 
@@ -219,7 +277,7 @@
   <div class="entry-content">
     <p>Characterization of unsteady separation in a turbulent boundary layer: mean and phase-averaged flow.</p>
   </div>
-  <footer class="entry-footer"><span title='2022-07-13 00:00:00 +0000 UTC'>July 2022</span>&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
+  <footer class="entry-footer"><span title='2022-07-13 00:00:00 +0000 UTC'>July 2022</span>&nbsp;&middot;&nbsp;2 min&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
   <a class="entry-link" aria-label="post link to Characterization of unsteady separation in a turbulent boundary layer: mean an    d phase-averaged flow" href="http://localhost:1313/publications/apr-jfm_22/"></a>
 </article>
 
@@ -234,7 +292,7 @@
   <div class="entry-content">
     <p>13th Workshop in Direct and Large-Eddy Simulation.</p>
   </div>
-  <footer class="entry-footer"><span title='2022-06-20 00:00:00 +0000 UTC'>June 2022</span>&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
+  <footer class="entry-footer"><span title='2022-06-20 00:00:00 +0000 UTC'>June 2022</span>&nbsp;&middot;&nbsp;1 min&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
   <a class="entry-link" aria-label="post link to " href="http://localhost:1313/presentations/dles-13/"></a>
 </article>
 
@@ -249,7 +307,7 @@
   <div class="entry-content">
     <p>In 12th international symposium on Tubulence and Shear Flow Phenomena.</p>
   </div>
-  <footer class="entry-footer"><span title='2022-06-18 00:00:00 +0000 UTC'>June 2022</span>&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
+  <footer class="entry-footer"><span title='2022-06-18 00:00:00 +0000 UTC'>June 2022</span>&nbsp;&middot;&nbsp;1 min&nbsp;&middot;&nbsp;Francesco Ambrogi,&thinsp;Ugo Piomelli,&thinsp;David E. Rival</footer>
   <a class="entry-link" aria-label="post link to Large-eddy simulations of a turbulent boundary layer with unsteady pressure gr    adients" href="http://localhost:1313/presentations/tsfp-12/"></a>
 </article>
     </main>
@@ -290,6 +348,18 @@
             }
         });
     });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
 </script>
 </body>

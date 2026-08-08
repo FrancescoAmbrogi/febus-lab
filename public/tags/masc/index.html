@@ -27,6 +27,34 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/tags/masc/">
   <meta property="og:site_name" content="FEBUS lab">
   <meta property="og:title" content="MASc">
@@ -68,7 +96,17 @@
 
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
 
 <header class="header">
     <nav class="nav">
@@ -78,6 +116,26 @@
                     height="18"
                     width="18">FEBUS lab</a>
             <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </div>
         </div>
         <ul id="menu">
@@ -135,6 +193,22 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/people/nel/nel.jpeg" alt="Test text">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Oneil (Nel) Hermez - SWEP student
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Short bio: Hello, my names Oneil! Im in my 3rd year of Engineering Physics at Smith Engineering. I have an interest in virtual experiences, user experiences, and game mechanics. I am an independent game developer, and love to create 3D animations, low-poly 3D models, create beautiful GUI’s, and ensure intuitive user experiences in all of my work! I use Blender, as well as Unity OR Roblox Studio to create authentic experiences that most age groups can enjoy.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-01 00:00:00 +0000 UTC'>May 2026</span>&nbsp;&middot;&nbsp;1 min&nbsp;&middot;&nbsp;Present member</footer>
+  <a class="entry-link" aria-label="post link to Oneil (Nel) Hermez - SWEP student" href="http://localhost:1313/people/nel/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
             <img loading="lazy" src="http://localhost:1313/people/kmacdonald/kmacdonald.jpg" alt="Test text">
 </figure>
   <header class="entry-header">
@@ -146,7 +220,7 @@
 Project: Kellan’s research focuses on studying the hydrodynamic function of sharkskin denticles using advanced Computational Fluid Dynamics (CFD) tools. As a first step, he has completed a careful preliminary study of the flow over a surface-mounted circular cylinder and successfully matched key results from the literature, validating his numerical approach. Building on this foundation, Kellan will employ Large-Eddy Simulation (LES) techniques to resolve the complex turbulent structures associated with sharkskin-inspired surfaces, leveraging high-performance computing resources provided by the Research Alliance Canada.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-15 00:00:00 +0000 UTC'>April 2026</span>&nbsp;&middot;&nbsp;Present member</footer>
+  <footer class="entry-footer"><span title='2026-04-15 00:00:00 +0000 UTC'>April 2026</span>&nbsp;&middot;&nbsp;1 min&nbsp;&middot;&nbsp;Present member</footer>
   <a class="entry-link" aria-label="post link to Kellan MacDonald - MASc student" href="http://localhost:1313/people/kmacdonald/"></a>
 </article>
     </main>
@@ -187,6 +261,18 @@ Project: Kellan’s research focuses on studying the hydrodynamic function of sh
             }
         });
     });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
 </script>
 </body>

@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/community/</loc>
-    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/nato-rsm-2026/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/networking/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/research/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/turbulence/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/community/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fun/</loc>
@@ -14,14 +32,17 @@
     <loc>http://localhost:1313/news/hot-ones-interview/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
-    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/volunteering/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/masc/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/nel/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/education/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
@@ -33,12 +54,6 @@
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/people/kmacdonald/</loc>
-    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/masc/</loc>
-    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/</loc>
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/</loc>
@@ -62,9 +77,6 @@
     <loc>http://localhost:1313/tags/internship/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/research/</loc>
-    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/news/ahnaaf-2025/ahnaaf-2025/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -81,9 +93,6 @@
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/turbulence/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/sharkskin/</loc>
@@ -108,9 +117,6 @@
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/flaq-tim-2025/flaq-tim-2025/</loc>
-    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications/ha_jose_24/</loc>

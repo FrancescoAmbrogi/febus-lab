@@ -6,8 +6,15 @@
     <description>Recent content in Fun on FEBUS lab</description>
     <generator>Hugo -- 0.165.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Command Line Interface</title>
+      <link>http://localhost:1313/open-learning/my-cli-course/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/open-learning/my-cli-course/</guid>
+      <description>Introduction to the command line interface</description>
+    </item>
     <item>
       <title>The VERY first FEBUS lab social</title>
       <link>http://localhost:1313/news/first-febus-social/</link>

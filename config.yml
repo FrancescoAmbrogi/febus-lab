@@ -24,15 +24,18 @@ menu:
         - name: Projects
           url: projects/
           weight: 3
-        - name: Courses
+        - name: Teaching
           url: courses/
           weight: 4
+        - name: Open learning
+          url: open-learning/
+          weight: 6
         - name: News
           url: news/
-          weight: 5 
+          weight: 7 
         - name: Dr. Ambrogi
           url: https://francescoambrogi.github.io/my-portfolio
-          weight: 7
+          weight: 8
 
 params:
     description: "Welcome to the official website of the Queen's University FEBUS lab where we use modern computational tools to push the boundaries of our understanding of fluid systems."
@@ -76,8 +79,10 @@ params:
               url: news/
             - name: People
               url: people/
-            - name: Courses
+            - name: Teaching
               url: courses/
+            - name: Open learning
+              url: open-learning/
 
     socialIcons:
         - name: CV

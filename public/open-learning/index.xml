@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Open learning on FEBUS lab</title>
+    <link>http://localhost:1313/open-learning/</link>
+    <description>Recent content in Open learning on FEBUS lab</description>
+    <generator>Hugo -- 0.165.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/open-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Command Line Interface</title>
+      <link>http://localhost:1313/open-learning/my-cli-course/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/open-learning/my-cli-course/</guid>
+      <description>Introduction to the command line interface</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>VIM is awesome | FEBUS lab</title>
+<meta name="keywords" content="">
+<meta name="description" content="Introduction to Vim text editor">
+<meta name="author" content="Francesco Ambrogi">
+<link rel="canonical" href="http://localhost:1313/open-learning/my-vim-course/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b25a2acc22d438da411907ae69c957b3b8a6630a35eff4cfe25080d840a516f9.css" integrity="sha256-sloqzCLUONpBGQeuaclXs7imYwo17/TP4lCA2EClFvk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/open-learning/my-vim-course/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/open-learning/my-vim-course/">
+  <meta property="og:site_name" content="FEBUS lab">
+  <meta property="og:title" content="VIM is awesome">
+  <meta property="og:description" content="Introduction to Vim text editor">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="open-learning">
+    <meta property="article:published_time" content="2026-08-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-08-18T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/open-learning/my-vim-course/featured.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/open-learning/my-vim-course/featured.png">
+<meta name="twitter:title" content="VIM is awesome">
+<meta name="twitter:description" content="Introduction to Vim text editor">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Open learning",
+      "item": "http://localhost:1313/open-learning/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "VIM is awesome",
+      "item": "http://localhost:1313/open-learning/my-vim-course/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VIM is awesome",
+  "name": "VIM is awesome",
+  "description": "Introduction to Vim text editor",
+  "keywords": [
+    
+  ],
+  "articleBody": "What is Vim? Vim (Vi IMproved) is a completely free, open-source, screen-based text editor developed by Bram Moolenaar.\nWhy you should use Vim? If you work/study in computational science, chances are you will need to perform numerical simulations on large super-computers by accessing them through Secure SHell connection. Most clusters use Linux as the main operating system and once you are connected to the cluster you will quickly realize that:\nThere is NO graphic interface (in most cases), and all you will see is a terminal window. You will not be able to use your favourite text editor in graphic mode. Do not dispair! Vim is here to save your life. Vim is, by default, present in almost all Linux distributions. Type vim on your command line, and this is the output you should see (the version will depend on your system characteristics):\nThe first thing you will realize is that the vim welcome message pops up in the terminal window itself and that, from now on, you can take your mouse (or trackpad) and throw it in the garbage! You might not see it right now, but this is one of the hidden beauties of Vim.\nQuitting Vim, not an intuitive task Everyone who uses Vim on a daily basis has probably done this joke at least once: go to your mother (or best joke buddy), put them in front of an open Vim screen, and ask them a simple question “Please, can you quit?”. After a few seconds you will see the desperation in their eyes, not knowing what is going on, and 98% of the cases they will end up closing the terminal which will kill the entire process.\nAfter this fun intro, here is how you quit Vim: press :q (colomn followed by q)\nGive Vim a new look Right off the bat you might think Vim looks pretty boring, especially if compared with recent very fancy text editors (e.g. Atom, VS code, etc.). To give you an idea, here is a simple function (witten in Julia) to calculate the volume of a spehere:\nIf you are ready to give up Vim because of its look (at first), I totally understand. However, let’s not judge the book from its cover, and take a look at this:\nMuch better, right?? We have now highlighted syntax for different programming languages, we have line numbers, automatic indentation, and it underlines where you currently are with the cursor (which in Vim is pretty crucial). So how do you make these changes in Vim? Again, this is not intuitive. There is no dropdown settings menu where you can edit all the perks.\nAt start-up vim automatically reads a config file called vimrc. This is the equivalent of your bashrc file for your terminal. If you just installed Vim or if you are a brand new user, chances are you do not have this file, so the first thing to do is to create the file at home: touch ~/.vimrc\nInside this file you can now put all your precious settings to make Vim look very fancy, probably even better than mine. Here is a selection of settings which I believe will be useful for any Vim user:\nset nocompatible filetype on filetype indent on syntax on set number set cursorline From top to bottom: nocompatible fixes compatibility problems between Vi and Vim, filetype on makes sure Vim recognizes the file by the extension and syntax, indent on follows indentation rules set by the given programming language, syntax on highlights keywords and functions based on the given programming language, set number put the line number on the left side, and set cursorline underlines the location where the cursor is.\nFour VIM modes The most important thing to realize as soon as Vim starts up is understand in what mode is working. There are 4 MAIN modes:\nNormal: normal mode is the default start-up mode for Vim. This mode is read-only and you will be unable to edit the file. Very useful when consulting or studying a piece of code. Insert: upon pressing i you will enter insert mode. In this mode you will be able to freerly edit the file. Insert mode can also be activated by pressing INS on a full-size keyboard. Two very useful sub-commands are: a will turn on instert mode and move the cursor after the current character. o will turn on insert mode and move the cursor one line below. Visual: this mode allows you to visually highlight (slect) text areas and perform operation (cut, copy, move) on them. Press v to enter visual mode which will mark the beginning of the selection. You can use the arrow keys to highlight the desired text. Command line: this mode will allow you to perform operations such as: quit, save, replace, and search. Enter the command line mode by typing : within normal mode. Example: let’s take the piece of code shown before, and let’s highlight only the formula for the volume of the sphere. You would put the cursor on that line, then press v and move the cursor to the next line pressing ↓. Here is the result:\nThe golden rule: if you do not know in which mode you are in, or if you want to go back to normal mode just press ESC. You will find that when you will be more used to using Vim, the ESC key will be on of the most used on your keyboard.\nThe status bar: a pretty awesome tool that will give you useful information on the file you are editing with Vim. The status bar is situated at the bottom of the file and (in my case) looks like this:\nIn this case the status bar tells me that: I am in insert mode, and I am modifying the file named test.md located in ~/Desktop/, and finally that the file is of type markdown. To setup the status bar like I did, here are the changes that must be included in the ~/.vimrc file:\nset statusline= set statusline+=\\ %F\\ %M\\ %Y\\ %R set statusline+=%= set laststatus=2 The 5 basics Vim commands to get by Here are (in my opinion) the 5 basic commands to use Vim on a daily basis as a beginner.\nThe save command: suppose you are now in insert mode (after typing i, o, a, or INS in a full size keyboard) and say that you are happy and want to save the changes to your file, the command to save is :w and ENTER. If you want to save and quit Vim, you would just type :wq and press ENTER.\nThe undo command: suppose you made some changes, but want to go back, NOT A PROBLEM: within a session Vim keeps track of your changes and you can go back by pressing u until the oldest change.\nNavigation keys: Vim is designed to improve your productivity while writing codes. You don’t need to use arrow keys (usually placed on the far right of your keyboard) to navigate your code. Withing normal mode you can move around using h (left), j (down), k (up), l (right). Practice using these keys instead of the arrows and you will never regret it!\nDelete line command: you can delete an entire line by typing dd within normal mode. This command will delete the line the cursor is sitting at.\nThe search command: there are a few ways in which you can search in Vim. If you activated the line number, you can go directly to a specified line number # by typing:# and ENTER. You can also perform a word search by typing / followed by the word you are searching for. If you press ENTER Vim will go to the word you searched that is below and closest to the cursor. At that point if you type n repeatedly Vim will jump to every location in the code where that word appears. When you reach the bottom of the code Vim will pop a message in the status bar “search hit BOTTOM, continuing at TOP” and will move to the top of the file. By default, search words are not highlighted and the search is case sensitive, if you want to highlight the word and ignore the upper or lower case letters here are the changes you need to add to the ~/.vimrc file:\nset incsearch set ignorecase set hlsearch Vim plugins (is this magic?) As I mentioned in the beginning Vim is an EXTREMELY powerful editor, plugins are the heart of its beauty. You can customize your Vim editor based on your typical workflow by installing plugins. Below I will give you ONE of the ways to install plugins in Vim, and I will provide a list of very useful (in my opinion) plugins to install. Buckle up!\nSetting up plug-ins In order to set up plugins in Vim we are going to need the curl command. First order of business is therefore to check if we have the curl command installed in our system by typying:\nfrancesco@rafaela : (~) -\u003e which curl /usr/bin/curl francesco@rafaela : (~) -\u003e If the output of which is “similar” to what you see above, you are all set to continue and unleash the power of vim plugins!\nUse vim.plug to install plugins There are many possibilities to install plugins in Vim, but I believe vim.plug is probably one of the most straight forward. Carefully follow these steps:\nFirst, we are going to create a /.vimrc.plug file in our home directory. Very similar to /.vimrc, this file will contain ALL installed plug-ins.\nfrancesco@rafaela : (~) -\u003e touch ~/.vimrc.plug We are now going to create a hidden directory .vim/plug in our home. Recall that hidden directories and files in unix based systems start with a “dot”. We will also use the -p option to create the parent directory as well.\nfrancesco@rafaela : (~) -\u003e mkdir -p ~/.vim/plug We now have to tell vim to “source” the /.vimrc.plug file at each startup. To do so we will add the following code at the bottom of the /.vimrc file:\n\" Call the vimrc.plug file if filereadable(expand(\"~/.vimrc.plug\")) source ~/.vimrc.plug endif The last step in this module is to install vim.plug itself. We will do so with the curl command as mentioned above.\ncurl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim When this is done, you should be all set to navigate the web and install whatever vim plugin will makre your workflow more efficient. Below, I will show you my 3 must have vim plugins.\nMy 3 must have plugins The three plugins I will present are:\nFugitive: the main feature of Fugitive is :Git (or just :G), which calls any arbitrary Git command. If you know how to use Git at the command line, you know how to use :Git. It’s vaguely akin to :!git but with numerous improvements.\nNERD Tree: the NERDTree is a file system explorer for the Vim editor. Using this plugin, users can visually browse complex directory hierarchies, quickly open files for reading or editing, and perform basic file system operations.\nVimTex: VimTeX is a modern Vim and Neovim filetype and syntax plugin for LaTeX files.\nTo install these plugins we are going to open the previously created ~/.vimrc.plug file and type the following:\ncall plug#begin('~/.vim/plugged') \" Fugitive plugin Plug 'tpope/vim-fugitive' \" NERD tree plugin Plug 'preservim/nerdtree' \" VimTex plugin Plug 'lervag/vimtex' call plug#end() The VERY LAST step is to open up vim, press : to go in command line mode and type PlugInstall and hit ENTER (see figure below):\nThe output of this command should look something like this:\nUpdated. Elapsed time: 1.457243 sec. [===] - Finishing ... Done! - vimtex: Already up to date. - vim-fugitive: Already installed - nerdtree: Already up to date. And the MAGIC IS DONE!\nExample I will let you explore the different plugins we have installed by yourself, but I will show you an example on how to use NERD Tree. Let’s open a random file using Vim (I will use a file from one of my intro to command line course). After the file is opened in vim, enter command line mode (you should know how to do it by now) and type NERDTree. What you should see is something like this:\nThe file is still open on the right side, but you have a BEAUTIFUL side bar showing all files in the current directory. You can navigate the side bar menu with your mouse or with the keyboard, check files and directories, and even open more than one file at once. If you type ? you will have an entire list of possible commands for NERDTree.\nThis is FAR beyond a complete course on Vim text editor, but just a quick showcase of useful commands that may spark your curiosity to use this wonderful tool. Keep checking as I will add more sections soon …\n",
+  "wordCount" : "2152",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/open-learning/my-vim-course/featured.png","datePublished": "2026-08-18T00:00:00Z",
+  "dateModified": "2026-08-18T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Francesco Ambrogi"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/open-learning/my-vim-course/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FEBUS lab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="FEBUS lab">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">FEBUS lab</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/presentations" title="Presentations">
+                    <span>Presentations</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/courses/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/people/" title="People">
+                    <span>People</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/open-learning/" title="Open learning">
+                    <span>Open learning</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/news/" title="News">
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://francescoambrogi.github.io/my-portfolio" title="Dr. Ambrogi">
+                    <span>Dr. Ambrogi</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      VIM is awesome
+    </h1>
+    <div class="post-meta"><span title='2026-08-18 00:00:00 +0000 UTC'>August 2026</span>&nbsp;&middot;&nbsp;11 min&nbsp;&middot;&nbsp;Francesco Ambrogi
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-vim">What is Vim?</a></li>
+    <li><a href="#why-you-should-use-vim">Why you should use Vim?</a></li>
+    <li><a href="#quitting-vim-not-an-intuitive-task">Quitting Vim, not an intuitive task</a></li>
+    <li><a href="#give-vim-a-new-look">Give Vim a new look</a></li>
+    <li><a href="#four-vim-modes">Four VIM modes</a></li>
+    <li><a href="#the-5-basics-vim-commands-to-get-by">The 5 basics Vim commands to get by</a></li>
+    <li><a href="#vim-plugins-is-this-magic">Vim plugins (is this magic?)</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="what-is-vim">What is Vim?<a hidden class="anchor" aria-hidden="true" href="#what-is-vim">#</a></h2>
+<p>Vim (<strong>Vi</strong> <strong>IM</strong>proved) is a completely free, open-source, screen-based text editor developed by <a href="https://en.wikipedia.org/wiki/Bram_Moolenaar" target="_blank">Bram Moolenaar</a>.</p>
+<h2 id="why-you-should-use-vim">Why you should use Vim?<a hidden class="anchor" aria-hidden="true" href="#why-you-should-use-vim">#</a></h2>
+<p>If you work/study in computational science, chances are you will need to perform numerical simulations on large super-computers by accessing them through <strong>S</strong>ecure <strong>SH</strong>ell connection. Most clusters use Linux as the main operating system and once you are connected to the cluster you will quickly realize that:</p>
+<ol>
+<li>There is NO graphic interface (in most cases), and all you will see is a terminal window.</li>
+<li>You will not be able to use your favourite text editor in graphic mode.</li>
+</ol>
+<p>Do not dispair! Vim is here to save your life. Vim is, by default, present in almost all Linux distributions. Type <mark>vim</mark> on your command line, and this is the output you should see (the version will depend on your system characteristics):</p>
+<p><img alt="Typing vim in command line output." loading="lazy" src="/open-learning/my-vim-course/Figures/01_vim_init.png"></p>
+<p>The first thing you will realize is that the vim welcome message pops up in the terminal window itself and that, from now on, you can take your mouse (or trackpad) and throw it in the garbage! You might not see it right now, but this is one of the hidden beauties of Vim.</p>
+<h2 id="quitting-vim-not-an-intuitive-task">Quitting Vim, not an intuitive task<a hidden class="anchor" aria-hidden="true" href="#quitting-vim-not-an-intuitive-task">#</a></h2>
+<p>Everyone who uses Vim on a daily basis has probably done this joke at least once: go to your mother (or best joke buddy), put them in front of an open Vim screen, and ask them a simple question &ldquo;Please, can you quit?&rdquo;. After a few seconds you will see the desperation in their eyes, not knowing what is going on, and 98% of the cases they will end up closing the terminal which will kill the entire process.</p>
+<p>After this fun intro, here is how you quit Vim: press <mark>:q</mark> (colomn followed by q)</p>
+<h2 id="give-vim-a-new-look">Give Vim a new look<a hidden class="anchor" aria-hidden="true" href="#give-vim-a-new-look">#</a></h2>
+<p>Right off the bat you might think Vim looks <strong>pretty</strong> boring, especially if compared with recent very fancy text editors (e.g. Atom, VS code, etc.). To give you an idea, here is a simple function (witten in Julia) to calculate the volume of a spehere:</p>
+<p><img alt="Calculate the volume of a sphere." loading="lazy" src="/open-learning/my-vim-course/Figures/02_sphere_jl_nosy.png"></p>
+<p>If you are ready to give up Vim because of its look (at first), I totally understand. However, let&rsquo;s not judge the book from its cover, and take a look at this:</p>
+<p><img alt="Calculate the volume of a sphere." loading="lazy" src="/open-learning/my-vim-course/Figures/03_sphere_sy.png"></p>
+<p>Much better, right?? We have now highlighted syntax for different programming languages, we have line numbers, automatic indentation, and it underlines where you currently are with the cursor (which in Vim is pretty crucial). So how do you make these changes in Vim? Again, this is not intuitive. There is no dropdown settings menu where you can edit all the perks.</p>
+<p>At start-up vim automatically reads a config file called <mark>vimrc</mark>. This is the equivalent of your <mark>bashrc</mark> file for your terminal. If you just installed Vim or if you are a brand new user, chances are you do not have this file, so the first thing to do is to create the file at home: <mark>touch ~/.vimrc</mark></p>
+<p>Inside this file you can now put all your precious settings to make Vim look very fancy, probably even better than mine. Here is a selection of settings which I believe will be useful for any Vim user:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#00a">set</span> nocompatible
+</span></span><span style="display:flex;"><span><span style="color:#00a">filetype</span> on
+</span></span><span style="display:flex;"><span><span style="color:#00a">filetype</span> indent on
+</span></span><span style="display:flex;"><span><span style="color:#00a">syntax</span> on
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> number
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> cursorline
+</span></span></code></pre></div><p>From top to bottom: <strong>nocompatible</strong> fixes compatibility problems between Vi and Vim, <strong>filetype on</strong> makes sure Vim recognizes the file by the extension and syntax, <strong>indent on</strong> follows indentation rules set by the given programming language, <strong>syntax on</strong> highlights keywords and functions based on the given programming language, <strong>set number</strong> put the line number on the left side, and <strong>set cursorline</strong> underlines the location where the cursor is.</p>
+<h2 id="four-vim-modes">Four VIM modes<a hidden class="anchor" aria-hidden="true" href="#four-vim-modes">#</a></h2>
+<p>The most important thing to realize as soon as Vim starts up is understand in what <strong>mode</strong> is working. There are <strong>4 MAIN</strong> modes:</p>
+<ol>
+<li><strong>Normal</strong>: normal mode is the default start-up mode for Vim. This mode is read-only and you will be unable to edit the file. Very useful when consulting or studying a piece of code.</li>
+<li><strong>Insert</strong>: upon pressing <mark>i</mark> you will enter <strong>insert mode</strong>. In this mode you will be able to freerly edit the file. Insert mode can also be activated by pressing <mark>INS</mark> on a full-size keyboard. Two very useful sub-commands are: <mark>a</mark> will turn on instert mode and move the cursor after the current character. <mark>o</mark> will turn on insert mode and move the cursor one line below.</li>
+<li><strong>Visual</strong>: this mode allows you to visually highlight (slect) text areas and perform operation (cut, copy, move) on them. Press <mark>v</mark> to enter visual mode which will mark the beginning of the selection. You can use the arrow keys to highlight the desired text.</li>
+<li><strong>Command line</strong>: this mode will allow you to perform operations such as: quit, save, replace, and search. Enter the command line mode by typing <mark>:</mark> within <strong>normal mode</strong>.</li>
+</ol>
+<p><strong>Example</strong>: let&rsquo;s take the piece of code shown before, and let&rsquo;s highlight only the formula for the volume of the sphere. You would put the cursor on that line, then press <mark>v</mark> and move the cursor to the next line pressing <mark>↓</mark>. Here is the result:</p>
+<p><img alt="Select in visual mode." loading="lazy" src="/open-learning/my-vim-course/Figures/04_visual.png"></p>
+<p><u><strong>The golden rule</strong></u>: if you do not know in which mode you are in, or if you want to go back to <strong>normal mode</strong> just press <mark>ESC</mark>. You will find that when you will be more used to using Vim, the <mark>ESC</mark> key will be on of the most used on your keyboard.</p>
+<p><u><strong>The status bar</strong></u>: a pretty awesome tool that will give you useful information on the file you are editing with Vim. The status bar is situated at the bottom of the file and (in my case) looks like this:</p>
+<p><img alt="The status bar." loading="lazy" src="/open-learning/my-vim-course/Figures/05_banner.png"></p>
+<p>In this case the status bar tells me that: I am in <strong>insert mode</strong>, and I am modifying the file named <strong>test.md</strong> located in <strong>~/Desktop/</strong>, and finally that the file is of type markdown. To setup the status bar like I did, here are the changes that must be included in the ~/.vimrc file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#00a">set</span> statusline=
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> statusline+=\ %F\ %M\ %Y\ %R
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> statusline+=%=
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> laststatus=<span style="color:#099">2</span> 
+</span></span></code></pre></div><h2 id="the-5-basics-vim-commands-to-get-by">The 5 basics Vim commands to get by<a hidden class="anchor" aria-hidden="true" href="#the-5-basics-vim-commands-to-get-by">#</a></h2>
+<p>Here are (in my opinion) the 5 basic commands to use Vim on a daily basis as a beginner.</p>
+<ol>
+<li>
+<p><u>The save command</u>: suppose you are now in insert mode (after typing <mark>i</mark>, <mark>o</mark>, <mark>a</mark>, or <mark>INS</mark> in a full size keyboard) and say that you are happy and want to save the changes to your file, the command to save is <mark>:w</mark> and <mark>ENTER</mark>. If you want to save and quit Vim, you would just type <mark>:wq</mark> and press <mark>ENTER</mark>.</p>
+</li>
+<li>
+<p><u>The undo command</u>: suppose you made some changes, but want to go back, NOT A PROBLEM: within a session Vim keeps track of your changes and you can go back by pressing <mark>u</mark> until the oldest change.</p>
+</li>
+<li>
+<p><u>Navigation keys</u>: Vim is designed to improve your productivity while writing codes. You don&rsquo;t need to use arrow keys (usually placed on the far right of your keyboard) to navigate your code. Withing <strong>normal mode</strong> you can move around using <mark>h</mark> (left), <mark>j</mark> (down), <mark>k</mark> (up), <mark>l</mark> (right). Practice using these keys instead of the arrows and you will never regret it!</p>
+</li>
+<li>
+<p><u>Delete line command</u>: you can delete an entire line by typing <mark>dd</mark> within normal mode. This command will delete the line the cursor is sitting at.</p>
+</li>
+<li>
+<p><u>The search command</u>: there are a few ways in which you can <strong>search</strong> in Vim. If you activated the line number, you can go directly to a specified line number <mark>#</mark> by typing<mark>:#</mark> and <mark>ENTER</mark>. You can also perform a word search by typing <mark>/</mark> followed by the word you are searching for. If you press <mark>ENTER</mark> Vim will go to the word you searched that is below and closest to the cursor. At that point if you type <mark>n</mark> repeatedly Vim will jump to every location in the code where that word appears. When you reach the bottom of the code Vim will pop a message in the status bar &ldquo;search hit BOTTOM, continuing at TOP&rdquo; and will move to the top of the file. By default, search words are not highlighted and the search is case sensitive, if you want to highlight the word and ignore the upper or lower case letters here are the changes you need to add to the <mark>~/.vimrc</mark> file:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#00a">set</span> incsearch
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> ignorecase
+</span></span><span style="display:flex;"><span><span style="color:#00a">set</span> hlsearch
+</span></span></code></pre></div><h2 id="vim-plugins-is-this-magic">Vim plugins (is this magic?)<a hidden class="anchor" aria-hidden="true" href="#vim-plugins-is-this-magic">#</a></h2>
+<p>As I mentioned in the beginning Vim is an EXTREMELY powerful editor, plugins are the heart of its beauty. You can customize your Vim editor based on your typical workflow by installing plugins. Below I will give you <strong>ONE</strong> of the ways to install plugins in Vim, and I will provide a list of very useful (in my opinion) plugins to install. Buckle up!</p>
+<h3 id="setting-up-plug-ins">Setting up plug-ins<a hidden class="anchor" aria-hidden="true" href="#setting-up-plug-ins">#</a></h3>
+<p>In order to set up plugins in Vim we are going to need the <mark>curl</mark> command. First order of business is therefore to check if we have the <mark>curl</mark> command installed in our system by typying:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>francesco@rafaela : (~) -&gt; which curl
+</span></span><span style="display:flex;"><span>/usr/bin/curl
+</span></span><span style="display:flex;"><span>francesco@rafaela : (~) -&gt;
+</span></span></code></pre></div><p>If the output of <mark>which</mark> is &ldquo;similar&rdquo; to what you see above, you are all set to continue and unleash the power of vim plugins!</p>
+<h3 id="use-vimplug-to-install-plugins">Use vim.plug to install plugins<a hidden class="anchor" aria-hidden="true" href="#use-vimplug-to-install-plugins">#</a></h3>
+<p>There are many possibilities to install plugins in Vim, but I believe vim.plug is probably one of the most straight forward. Carefully follow these steps:</p>
+<p>First, we are going to create a <mark><del>/.vimrc.plug</mark> file in our home directory. Very similar to <mark></del>/.vimrc</mark>, this file will contain ALL installed plug-ins.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>francesco@rafaela : (~) -&gt; touch ~/.vimrc.plug
+</span></span></code></pre></div><p>We are now going to create a hidden directory <mark>.vim/plug</mark> in our home. Recall that hidden directories and files in unix based systems start with a &ldquo;dot&rdquo;. We will also use the <mark>-p</mark> option to create the parent directory as well.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>francesco@rafaela : (~) -&gt; mkdir -p ~/.vim/plug
+</span></span></code></pre></div><p>We now have to tell vim to &ldquo;source&rdquo; the <mark><del>/.vimrc.plug</mark> file at each startup. To do so we will add the following code at the bottom of the <mark></del>/.vimrc</mark> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">&#34; Call the vimrc.plug file</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">if</span> filereadable(expand(<span style="color:#a50">&#34;~/.vimrc.plug&#34;</span>))
+</span></span><span style="display:flex;"><span>    source ~/.vimrc.plug
+</span></span><span style="display:flex;"><span><span style="color:#00a">endif</span>
+</span></span></code></pre></div><p>The last step in this module is to install vim.plug itself. We will do so with the <mark>curl</mark> command as mentioned above.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</span></span></code></pre></div><p>When this is done, you should be all set to navigate the web and install whatever vim plugin will makre your workflow more efficient. Below, I will show you my 3 <strong>must have</strong> vim plugins.</p>
+<h3 id="my-3-must-have-plugins">My 3 must have plugins<a hidden class="anchor" aria-hidden="true" href="#my-3-must-have-plugins">#</a></h3>
+<p>The three plugins I will present are:</p>
+<ol>
+<li>
+<p><a href="https://github.com/tpope/vim-fugitive" target="_blank"><strong>Fugitive</strong></a>: the main feature of Fugitive is :Git (or just :G), which calls any arbitrary Git command. If you know how to use Git at the command line, you know how to use :Git. It&rsquo;s vaguely akin to :!git but with numerous improvements.</p>
+</li>
+<li>
+<p><a href="https://github.com/preservim/nerdtree" target="_blank"><strong>NERD Tree</strong></a>: the NERDTree is a file system explorer for the Vim editor. Using this plugin, users can visually browse complex directory hierarchies, quickly open files for reading or editing, and perform basic file system operations.</p>
+</li>
+<li>
+<p><a href="https://github.com/lervag/vimtex" target="_blank"><strong>VimTex</strong></a>: VimTeX is a modern Vim and Neovim filetype and syntax plugin for LaTeX files.</p>
+</li>
+</ol>
+<p>To install these plugins we are going to open the previously created <mark>~/.vimrc.plug</mark> file and type the following:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>call plug#begin(<span style="color:#a50">&#39;~/.vim/plugged&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">&#34; Fugitive plugin</span>
+</span></span><span style="display:flex;"><span>Plug <span style="color:#a50">&#39;tpope/vim-fugitive&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">&#34; NERD tree plugin</span>
+</span></span><span style="display:flex;"><span>Plug <span style="color:#a50">&#39;preservim/nerdtree&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">&#34; VimTex plugin</span>
+</span></span><span style="display:flex;"><span>Plug <span style="color:#a50">&#39;lervag/vimtex&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>call plug#end()
+</span></span></code></pre></div><p>The VERY LAST step is to open up vim, press <mark> : </mark> to go in <strong>command line</strong> mode and type <mark>PlugInstall</mark> and hit ENTER (see figure below):</p>
+<p><img loading="lazy" src="/open-learning/my-vim-course/vim-plug.png"></p>
+<p>The output of this command should look something like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>Updated. Elapsed time: <span style="color:#099">1</span>.<span style="color:#099">457243</span> sec.                                                        
+</span></span><span style="display:flex;"><span>[===] 
+</span></span><span style="display:flex;"><span>- Finishing ... Done!
+</span></span><span style="display:flex;"><span>- vimtex: Already up to date.
+</span></span><span style="display:flex;"><span>- vim-fugitive: Already installed
+</span></span><span style="display:flex;"><span>- nerdtree: Already up to date.
+</span></span></code></pre></div><p>And the MAGIC IS DONE!</p>
+<h3 id="example">Example<a hidden class="anchor" aria-hidden="true" href="#example">#</a></h3>
+<p>I will let you explore the different plugins we have installed by yourself, but I will  show you an example on how to use <strong>NERD Tree</strong>. Let&rsquo;s open a random file using Vim (I will use a file from one of my <a href="https://francescoambrogi.github.io/courses/my-cli-course/" target="_blank">intro to command line course</a>). After the file is opened in vim, enter <strong>command line</strong> mode (you should know how to do it by now) and type <mark>NERDTree</mark>. What you should see is something like this:</p>
+<p><img loading="lazy" src="/open-learning/my-vim-course/nerdtree.png"></p>
+<p>The file is still open on the right side, but you have a BEAUTIFUL side bar showing all files in the current directory. You can navigate the side bar menu with your mouse or with the keyboard, check files and directories, and even open more than one file at once. If you type <mark> ? </mark> you will have an entire list of possible commands for NERDTree.</p>
+<p><img loading="lazy" src="/open-learning/my-vim-course/nerdtree2.png"></p>
+<p>This is FAR beyond a complete course on Vim text editor, but just a quick showcase of useful commands that may spark your curiosity to use this wonderful tool. Keep checking as I will add more sections soon &hellip;</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 FEBUS lab</span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">hugo</a>, <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">papermod</a>, &amp;
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">hugo-website</a>.
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

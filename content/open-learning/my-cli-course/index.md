@@ -4,7 +4,7 @@ date: 2026-08-18
 tags: ["Fun", "Curiosity"]
 author: Francesco Ambrogi
 description: "Introduction to the command line interface"
-summary: "Thi is a very simple introductory course for those who are using the command line for the first time. The forst example that comes to mind is someone who is about to start a project using OpenFOAM and faces the first learning challenges in the command line. I hope this short course will be useful."
+summary: "This is a very simple introductory course for those who are using the command line for the first time. The forst example that comes to mind is someone who is about to start a project using OpenFOAM and faces the first learning challenges in the command line. I hope this short course will be useful."
 cover:
     image: "featured.png"
     alt: "Intro to CLI"

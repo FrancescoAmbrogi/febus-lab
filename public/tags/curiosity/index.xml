@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/curiosity/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Boundary layer theory</title>
+      <link>http://localhost:1313/open-learning/my-blayer-course/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/open-learning/my-blayer-course/</guid>
+      <description>Introduction to boundary layer theory</description>
+    </item>
+    <item>
       <title>Introduction to Command Line Interface</title>
       <link>http://localhost:1313/open-learning/my-cli-course/</link>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>

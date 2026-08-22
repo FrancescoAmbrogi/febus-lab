@@ -6,20 +6,27 @@
     <description>Recent content in Tags on FEBUS lab</description>
     <generator>Hugo -- 0.165.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun</title>
+      <link>http://localhost:1313/tags/fun/</link>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/tags/research/</link>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/research/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Curiosity</title>
       <link>http://localhost:1313/tags/curiosity/</link>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/curiosity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fun</title>
-      <link>http://localhost:1313/tags/fun/</link>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fun/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/networking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:1313/tags/research/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/research/</guid>
       <description></description>
     </item>
     <item>

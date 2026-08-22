@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/news/eliana-angie-art/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fun/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/research/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/open-learning/my-blayer-course/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/curiosity/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/fun/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/open-learning/my-cli-course/</loc>
@@ -20,14 +32,8 @@
     <loc>http://localhost:1313/open-learning/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/open-learning/my-vim-course/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/</loc>
-    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/social/</loc>
     <lastmod>2026-08-06T00:00:00+00:00</lastmod>
@@ -51,9 +57,6 @@
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/networking/</loc>
-    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/turbulence/</loc>
